@@ -1,0 +1,735 @@
+/* All Common Css Start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+body{
+    background: #FFEDC9;
+}
+/* All Common Css End  */
+#head{
+background: #ffffff;
+}
+
+.headPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logoPart p{
+    font-family: "Oxanium", sans-serif;
+    color: #F95C19;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menuPart ul li a{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #817382;
+}
+
+.menuPart ul li a p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F95C19; 
+}
+
+.logoPart{
+    display: flex;
+    align-items: center;
+}
+
+.menuPart ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menuPart{
+    display: flex;
+    align-items: center;
+}
+.menuPart2{
+    margin-left: 50px;
+    display: flex;
+}
+
+.menuPart2 i{
+    font-size: 22px;
+    background: #FFEDC9;
+    padding: 10px 10px;
+    color: #FFD078;
+    border-radius: 5px;
+}
+
+.menuPart2 ul li a{
+    font-family: "Oxanium", sans-serif;
+    color: #F95C19;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #FFE4D9;
+    border-radius: 5px;
+}
+
+
+/* banner Part Start  */
+#banner{
+    padding-top: 100px;
+}
+/* banner Part End  */
+.bannerPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerLeft{
+    width: 35%;
+}
+
+.bannerLeft h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 49px;
+    font-weight: 400;
+    color: #261134;
+    line-height: 120%;
+}
+
+.bannerLeft h1 span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.bannerLeft p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #261134;
+    line-height: 120%;
+    margin: 20px 0;
+}
+
+.bannerLeft a{
+    font-family: "Oxanium", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background: #F95C19;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.bannerRight{
+    width: 65%;
+}
+/* Heading Part Start  */
+
+/* Heading Part End  */
+
+
+/* services Part Start  */
+#services{
+
+}
+
+.servicesHead{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.servicesHead h1{
+    font-size: 32px;
+    color: #F95C19;
+    font-weight: 700;
+    font-family: "Oxanium", sans-serif;
+}
+
+.servicesHead h2{
+    font-size: 39px;
+    color: #11111D;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.serviceItemPart{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.serviceItem{
+    width: 28%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+.serviceItem ul{
+    list-style-type: circle;
+}
+
+.serviceItem h1{
+    font-size: 25px;
+    color: #464558;
+    font-family: "Raleway", sans-serif;
+    margin: 30px 0;
+}
+
+.serviceItem p{
+    font-size: 16px;
+    color: #464558;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 30px;
+}
+
+.serviceItem ul li{
+    font-size: 16px;
+    color: #11111D;
+    font-family: "Raleway", sans-serif;
+}
+
+.serviceItem a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F95C19;
+    border: 1px solid #F95C19;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: "Oxanium", sans-serif;
+    margin-top: 30px;
+}
+
+.svr2 a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 1px solid #F95C19;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: "Oxanium", sans-serif;
+    margin-top: 30px;
+    background: #F95C19;
+}
+/* services Part End  */
+
+
+/* Awards Part End  */
+
+
+/* Award Part Start  */
+.awardsPart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.awardsItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.awardsItem i{
+    font-size: 65px;
+}
+
+.awardsItem h1{
+    font-size: 40px;
+    color: #F95C19;
+    font-weight: 700;
+    font-family: "Oxanium", sans-serif;
+    margin-top: 20px;
+}
+
+.awardsItem p{
+    font-size: 20px;
+    color: #464558;
+    font-weight: 500;
+    font-family: "Oxanium", sans-serif;
+}
+/* award Part End  */
+
+
+/* Car Part Start  */
+.carPart{
+    background: url(../images/car.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+
+.carOverly{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 135px;
+    border-radius: 15px;
+}
+
+.carOverly h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 32px;
+    color: #F95C19;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.carOverly p{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 100px;
+}
+
+
+/* Car Part End  */
+
+
+/* TESTIMONIAL Part Start  */
+.testimonialHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testIcon{
+    margin-right: 30px;
+}
+
+.testText h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 32px;
+    color: #F95C19;
+    font-weight: 700; 
+}
+
+.testText h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    color: #11111D;
+    font-weight: 700; 
+}
+
+.name{
+    margin-right: 10px;
+}
+.name h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #11111D;
+    font-weight: 700;   
+    line-height: 120%; 
+}
+
+.name h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #464558;
+    font-weight: 400;   
+    line-height: 120%; 
+}
+
+.starBox i{
+    color: #F95C19;
+}
+
+.boxButtom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientProfile{
+    display: flex;
+    text-align: right;
+}
+
+.testBox{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.testBox h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 700; 
+    color: #F95C19;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.testBox p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    color: #11111D;
+    line-height: 145%;
+}
+
+.cphoto img{
+    border-radius: 50px;
+}
+/* TESTIMONIAL Part End  */
+
+
+/* Callback Part Start  */
+.callbackPart{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-bottom: 150px;
+}
+
+.callLeft img{
+
+}
+
+.callLeft h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 24px;
+    color: #F95C19;
+    font-weight: 700; 
+}
+
+.callLeft h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 39px;
+    font-weight: 800; 
+    color: #11111D;
+    line-height: 110%;
+    margin: 10px 0;
+}
+
+.callLeft p{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600; 
+    color: #9291A1;
+    line-height: 120%;
+}
+
+.callbackFrom input, textarea{
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+}
+
+.callbackFrom a{
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;  
+    background: #F95C19;
+    border-radius: 10px;
+    padding: 12px 129px;
+    margin-top: 40px;
+}
+
+/* Callback Part End  */
+
+
+/* Find us Part Start  */
+.findUs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapx{
+    width: 70%;
+}
+
+.contactBox{
+    width: 30%;
+    background: #ffffff;
+    padding: 100px;
+}
+
+.contactBox p i{
+    color: #9c6807;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.contactBox p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500; 
+    color: #464558;
+    padding: 10px 0;
+}
+
+.contactBox h5{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500; 
+    color: #464558;
+    margin-left: 36px;
+}
+
+.contactBox h1{
+    font-family: "Raleway", sans-serif;
+    font-size:24px;
+    font-weight: 600; 
+    color: #11111D;
+    margin-bottom: 30px;
+}
+
+.ikon a i{
+    font-size: 22px;
+    margin-right: 20px;
+    color: #817382;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.ikon a i:hover{
+    color: #F95C19;
+}
+
+.callUss{
+    display: flex;
+    justify-content: center;
+}
+
+.callUss a{
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;  
+    background: #F95C19;
+    border-radius: 10px;
+    padding: 12px 129px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.callUss a i{
+    font-size: 28px;
+}
+/* Find us Part End  */
+
+
+/* Footer Part Start  */
+#footer{
+    background: #222132;
+}
+
+.footerPart{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.footerLeft{
+    width: 50%;
+}
+
+.footerRight {
+    /* width: 50%; */
+}
+
+
+
+
+.footerLeft h1{
+    font-family: "Raleway", sans-serif;
+    font-size:39px;
+    font-weight: 800; 
+    color: #ffffff;
+    line-height: 110%;
+    margin: 0;
+}
+
+.footerLeft p{
+    font-family: "Raleway", sans-serif;
+    font-size:16px;
+    font-weight: 400; 
+    color: #C5C5D2;
+    line-height: 145%;
+    margin-top: 10px;
+    padding-right: 140px;
+    margin: 0;
+}
+
+
+.footerRight h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 18px;
+    color: #F95C19;
+    font-weight: 700; 
+    margin-bottom: 10px;
+}
+
+.footerRight input{
+    background: transparent;
+    font-family: "Oxanium", sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.footerRight button{
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #F95C19;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 10px;
+} 
+
+
+
+
+/* Second Part ================================ */
+
+
+.footerLink{
+    background: #2F2E41;
+}
+
+.fLinkPart{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.fLogoPart{
+    width: 50%;
+}
+
+
+.fLogoPart p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C5C5D2;
+}
+
+.flogo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flogo h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.fMenuPart{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fmenuItem h1{
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.fmenuItem ul li a{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C5C5D2;
+    margin-bottom: 10px;
+}
+
+.footerText{
+    background: #222132;
+    padding: 30px 0;
+}
+
+.footerTextt{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C5C5D2;
+}
+
+footer a{
+    color: #F95C19;
+    font-weight: 700;
+}
+/* Footer Part End  */
+
+
+/* Heading Part Start  */
+
+/* Heading Part End  */
+
+
+/* Heading Part Start  */
+
+/* Heading Part End  */
+
+
+/* Heading Part Start  */
+
+/* Heading Part End  */
